@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    margin: 0 auto;
+    font-family: "Cambria", sans-serif;
+    background-color: #f4f4f4;
+}
+.conteudoSite {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: top;
+}
+.workshops {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+textarea {
+    height: 150px;
+    resize: none;
+}
+button {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+button:hover {
+    background-color: #45a049;
+}
